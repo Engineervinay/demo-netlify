@@ -2,6 +2,7 @@
 :root{
     --primary-color:#8B5CF6;
     --dark-grey:#6B7280;
+    --light-violet:#E5E7EB;
 }
 body {
     font-family: 'Montserrat',
@@ -58,7 +59,8 @@ hr{
 /** inheritance**/
 .navigation .link{
     color:white;
-    font-weight:bold
+    font-weight:bold;
+    padding: 0.5rem 0.2rem;
     
 }
 .align-right{
@@ -84,4 +86,15 @@ hr{
 }
 .hero-heading-inside{
     color:var(--primary-color);
+}
+/** section**/
+section{
+    padding:1rem 0.5rem;
+}
+section h3{
+    text-align:center;
+}
+.ow-section {
+    background-color:var(--light-violet);
+    display:block;
 }
