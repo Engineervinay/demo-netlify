@@ -60,12 +60,14 @@ hr{
 /** inheritance**/
 .navigation .link{
     color:white;
-    font-weight:bold;
     padding: 0.5rem 0.2rem;
     
 }
 .align-right{
     text-align: right;
+}
+.link-active{
+    font-weight: bold;
 }
 .nav-brand{
     font-weight: bold;
