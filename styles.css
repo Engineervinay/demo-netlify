@@ -72,9 +72,12 @@ hr {
     padding: 0.5rem 0.2rem;
 
 }
-
+.navigation .display-inline{
+    padding:0.2rem 0.2rem ;
+}
 .align-right {
     text-align: right;
+    padding-left:0rem;
 }
 
 .link-active {
