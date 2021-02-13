@@ -3,12 +3,14 @@
 :root {
     --primary-color: #05C7C3;
     --dark-grey: #6B7280;
-    --light-violet: #E5E7EB;
+    --light-violet: #5a5a5a;
 }
 
 body {
     font-family: 'Cinzel Decorative', cursive;
     margin: 0px;
+    background-color: #070707;
+    color:white;
 }
 
 .container {
@@ -115,6 +117,8 @@ hr {
 /** section**/
 section {
     padding: 1rem 0.5rem;
+    
+    
 }
 
 section h3 {
@@ -130,9 +134,7 @@ section h3 {
 
 footer {
     background-color: var(--primary-color);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-
+   
     padding: 0.5rem 1rem;
     margin: auto;
     text-align: center;
