@@ -117,7 +117,7 @@ hr {
 /** section**/
 section {
     padding: 1rem 0.5rem;
-    
+    border:1rem;
     
 }
 
@@ -168,3 +168,40 @@ footer {
     padding: 1.5rem;
 
 }
+
+.project-tech{
+    background-color:#9400D3;
+    display: inline-block;
+    padding:0.2rem;
+    font-family:courier,arial,helvetica;
+    border-radius: 0.2rem;
+}
+
+/**name**/
+.name{
+    /**font-size: 4rem;**/
+    margin-top: 1rem;
+    
+    font-weight: 700;
+    background: -webkit-linear-gradient(#B3FFAB, #12FFF7);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -webkit-transition: all 0.4s ease 0s;
+-moz-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+    margin-bottom: 1rem;
+}
+
+
+.name:hover{
+    background: -webkit-linear-gradient(rgb(140, 0, 255), rgb(0, 89, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: all 0.4s ease 0s;
+   -moz-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   }
+  
