@@ -389,7 +389,7 @@ transition: all 0.4s ease 0s;
   
 }
     /*
-linear-gradient(315deg,#4dff03,#00d0ff)
+
 
 .new-container .new-box:nth-child(2)::before,
 .new-container .new-box:nth-child(2)::after{
@@ -411,20 +411,6 @@ linear-gradient(315deg,#4dff03,#00d0ff)
     background: var(--background);
     z-index:2;
 }
-
-/**
-.new-container .new-box span::before{
-    content:'';
-
-    position:absolute;
-    top:0;
-    left:0;
-    width:50%;
-    height: 100%;
-    background:rgba(255, 255, 255, 0.061);
-   pointer-events:none;
-}
-**/
 
 
 .new-container .new-box .new-content{
