@@ -310,7 +310,7 @@ transition: all 0.4s ease 0s;
 
 
 .name:hover{
-    background: -webkit-linear-gradient(rgb(140, 0, 255), rgb(0, 89, 255));
+    background: -webkit-linear-gradient(#12FFF7, #B3FFAB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-font-smoothing: antialiased;
